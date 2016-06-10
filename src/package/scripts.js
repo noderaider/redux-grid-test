@@ -22,7 +22,7 @@ export default ({}) => ({ 'start': 'npm run test-watch'
                           /** RELEASE */
                         , 'prerelease': 'npm run test'
                         , 'release': 'npm version patch && npm publish'
-                        , 'postrelease': 'npm run release-gh-pages'
+                        , '_postrelease': 'npm run release-gh-pages'
 
                           /** GH-PAGES RELEASE */
                         , 'prerelease-gh-pages': 'npm run doc'
