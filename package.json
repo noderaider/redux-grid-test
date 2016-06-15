@@ -89,5 +89,8 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/noderaider/redux-grid-test.git"
+  },
+  "devDependencies": {
+    "eslint": "^2.12.0"
   }
 }
